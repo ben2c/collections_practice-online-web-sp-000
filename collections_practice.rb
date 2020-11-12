@@ -29,3 +29,7 @@ def swap_elements (array)
   a[2] = x
 a
 end
+
+def reverse_array (array)
+  array.sort.reverse
+end
