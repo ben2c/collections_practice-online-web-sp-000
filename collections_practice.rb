@@ -23,5 +23,5 @@ end
 def swap_elements (array)
   array.sort do |x|
      x[1] <=> x[2]
-
+end
 end
