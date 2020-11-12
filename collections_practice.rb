@@ -22,10 +22,10 @@ end
 
 def swap_elements (array)
   a = array
-  x = a[2]
-  y = a[3]
+  x = a[1]
+  y = a[2]
 
-  a[2] = y
-  a[3] = x
+  a[1] = y
+  a[2] = x
 a
 end
