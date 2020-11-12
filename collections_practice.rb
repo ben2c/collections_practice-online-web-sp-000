@@ -33,3 +33,11 @@ end
 def reverse_array (array)
   array.reverse
 end
+
+def kesha_maker (array)
+  new = []
+  array.each do |n|
+    x = n[2] = "$"
+    new.push(x)
+  end
+end
