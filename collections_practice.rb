@@ -51,3 +51,11 @@ def find_a (array)
   end
   x
 end
+
+def sum_array (array)
+  sum = 0
+  array.each do |n|
+    sum += n 
+  end
+  sum
+end
