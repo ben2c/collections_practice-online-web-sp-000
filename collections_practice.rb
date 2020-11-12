@@ -62,9 +62,14 @@ end
 
 def add_s (array)
   new = []
+  count = 0
   array.each do |n|
+    unless count = 1
     x = "#{n}s"
     new.push(x)
+    count +=1
+  else
+    count += 1
   end
   new
 end
