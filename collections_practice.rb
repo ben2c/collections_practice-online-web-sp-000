@@ -69,6 +69,7 @@ def add_s (array)
     new.push(x)
     count +=1
   else
+    new.push(n)
     count += 1
   end
   new
