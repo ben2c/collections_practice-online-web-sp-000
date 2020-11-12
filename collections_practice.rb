@@ -66,4 +66,5 @@ def add_s (array)
     x = "#{n}s"
     new.push(x)
   end
+  new
 end
