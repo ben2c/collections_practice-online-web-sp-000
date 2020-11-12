@@ -44,7 +44,7 @@ end
 
 def find_a (array)
   x = []
-  array.each do |n| 
+  array.each do |n|
     if n[0] == "a"
       x.push(n)
     end
