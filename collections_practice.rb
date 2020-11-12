@@ -72,5 +72,6 @@ def add_s (array)
     new.push(n)
     count += 1
   end
+  end
   new
 end
