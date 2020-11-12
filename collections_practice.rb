@@ -59,3 +59,11 @@ def sum_array (array)
   end
   sum
 end
+
+def add_s (array)
+  new = []
+  array.each do |n|
+    x = n[2] = "$"
+    new.push(x)
+  end
+end
