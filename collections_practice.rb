@@ -41,3 +41,11 @@ def kesha_maker (array)
     new.push(x)
   end
 end
+
+def find_a (array)
+  x = []
+  array.each do |n| 
+    if n[0] == "a"
+      x.push(n)
+    end
+  end
