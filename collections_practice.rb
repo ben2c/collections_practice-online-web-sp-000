@@ -63,7 +63,7 @@ end
 def add_s (array)
   new = []
   array.each do |n|
-    x = n.push("s")
+    x = n + "s"
     new.push(x)
   end
 end
