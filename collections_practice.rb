@@ -49,4 +49,4 @@ def find_a (array)
       x.push(n)
     end
   end
-  end
+end
